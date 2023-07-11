@@ -2,4 +2,4 @@
 # Author - Serwah-Akoto Sandra
 
 def pow(a, b):
-return (a ** b)
+    return(a ** b)
