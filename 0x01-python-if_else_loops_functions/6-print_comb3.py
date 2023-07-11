@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 # Author - Serwah-Akoto Sandra
 
-for digit1 in range(0, 10):
-for digit2 in range(digit1 + 1, 10):
-if digit1 == 8 and digit2 == 9:
-print("{}{}".format(digit1, digit2))
-else:
-print("{}{}".format(digit1, digit2), end=", ")
+z = 0
+while z < 8:
+    j = z
+    while j <= 9:
+        if z != j:
+            print('{}{}'.format(z, j), end=', ')
+            j = j + 1
+    z = z + 1
+print('{}{}'.format(z, j - 1), sep='')
