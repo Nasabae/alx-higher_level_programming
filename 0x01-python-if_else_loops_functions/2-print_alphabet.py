@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for z in range(ord('a'), ord('z') + 1):
-      print('{:c}'.format(z), end='')
+i = 0
+while i < 26:    
+    print('{:c}'. format(i + 97), end='')
+    i = i + 1
