@@ -2,8 +2,7 @@
 # Author - Serwah-Akoto Sandra
 
 def islower(c):
-"""Function checks for lowercase characters."""
-if ord(c) >= 97 and ord(c) <= 122:
-return True
-else:
-return False
+    if ord(c) < ord('z') + 1 and ord(c) > ord('a') - 1:
+        return True
+    else:
+        return False
